@@ -20,7 +20,7 @@ function tallestCandles(candles) {
       returnValue = candlesObject[value];
     }
   }
-   console.log(returnValue);
+   return returnValue;
 }
 
 tallestCandles([3, 2, 1, 3]);
